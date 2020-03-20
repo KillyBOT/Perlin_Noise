@@ -8,3 +8,6 @@ main.o: main.c pnoise.h
 
 pnoise.o: pnoise.c pnoise.h
 	$(CC) -c pnoise.c
+
+run:
+	./main
