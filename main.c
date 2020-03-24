@@ -26,7 +26,7 @@ int main(){
 			yf = (double)y / RES;
 
 			//final = 255 * perlin(xf, yf, 0);
-			final = 255 * perlin_octave(xf,yf,0,4,.5);
+			final = 255 * perlin_octave(xf,yf,0,8,.5);
 
 			sprintf(grad, "%d ", final);
 
